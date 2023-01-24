@@ -1,3 +1,5 @@
+
+while true do
 	spawn(function()
 		while game:GetService("RunService").Heartbeat:Wait() do
 			local chr = game.Players.LocalPlayer.Character
@@ -9,5 +11,7 @@
 			end
 		end
 	end)
+	wait("10")
+	end
 
 
