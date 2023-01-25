@@ -1,9 +1,8 @@
-print("error")
 	spawn(function()
 		while game:GetService("RunService").Heartbeat:Wait(100) do
 			local chr = game.Players.LocalPlayer.Character
 			for _,v in pairs(chr:GetChildren()) do
-				if v:IsA("BallSocketConstraint") or v:IsA("Ragdoll fall-starterCharacterSripts") or v.Name == "RagdollMe" or v.Name == "StartRagdoll" or ---------v.Name == "Pushed" or v.Name == "FirstPerson" or v.Name == "Falling down" then
+				if v:IsA("BallSocketConstraint") or v:IsA("Ragdoll fall-starterCharacterSripts") or v.Name == "RagdollMe" or v.Name == "StartRagdoll" or v.Name == "Pushed" or v.Name == "FirstPerson" or v.Name == "Falling down" then
 					v:Destroy()
 				end
 			end
