@@ -1,7 +1,7 @@
 print("ended")
 
 
--- Made by noketchupjustrice#3666
+-- Made by no
 -- Added more waits and made the code look more stupid
 -- Will update and make the code look cleaner when i have time
 local Players = game:GetService("Players")
